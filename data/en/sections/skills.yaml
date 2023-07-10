@@ -1,0 +1,46 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+skills:
+  - name: Machine Learning
+    summary: Proficient in applying machine learning algorithms and techniques to solve complex problems, utilizing frameworks such as TensorFlow and scikit-learn.
+    logo: /images/site/skills/PyTorch_logo_icon.svg
+
+  - name: Computer Vision
+    summary: Skilled in developing computer vision applications, including image and video processing, object detection, and recognition using OpenCV and deep learning models.
+    logo: /images/site/skills/opencv.png
+
+  - name: Embedded Software
+    summary: Experienced in developing software for embedded systems, optimizing performance and ensuring reliability, with a strong understanding of hardware-software integration.
+    logo: /images/site/skills/PlatformIO_logo.svg
+
+  - name: Python
+    summary: Demonstrated proficiency in Python programming, leveraging its extensive libraries and frameworks to develop efficient and scalable solutions for various applications.
+    logo: /images/site/skills/pythonlogo.png
+
+  - name: C/C++
+    summary: Proficient in C/C++ programming languages, with experience in low-level systems development, performance optimization, and memory management.
+    logo: /images/site/skills/clogo.png
+
+  - name: Docker
+    summary: Experienced in containerization using Docker, proficient in creating, deploying, and managing containerized applications, enabling efficient and reproducible software deployments.
+    logo: /images/site/skills/docker.png
+
+  - name: ARM
+    summary: Skilled in developing software for ARM-based systems, including microcontrollers and embedded devices, utilizing ARM-specific toolchains and optimizing code for resource-constrained environments.
+    logo: /images/site/skills/Arm-logo-blue-pms313.svg
+
+  - name: FPGA
+    summary: Proficient in designing and programming Field-Programmable Gate Arrays (FPGAs) for hardware acceleration, implementing custom algorithms and digital logic designs for high-performance applications.
+    logo: /images/site/skills/xilinxlogo.png
+
+  - name: Optics
+    summary: Knowledgeable in optics principles and applications, experienced in designing and optimizing optical systems, including imaging, illumination, and laser-based technologies for diverse industries.
+    logo: /images/site/skills/camera.png
