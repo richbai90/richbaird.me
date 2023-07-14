@@ -17,7 +17,7 @@ hero: "fluorescent_organelles.png"
 In scientific research, mastering the balance between spatial, spectral, and temporal resolution in microscopy is an imperative yet elusive task. To elaborate, spatial resolution is our ability to discern tiny details; spectral resolution enables us to differentiate between different types of light, such as colors or fluorescent signals; and temporal resolution lets us capture changes over time. A current shortcoming in our technology is the absence of a microscopy technique that can simultaneously excel in all three types of resolution. This poses a significant challenge for researchers striving to understand real-time, complex interactions on a microscopic level.
 
 <div class="right">
-<img src="setup.png" alt="setup" width="600" />
+  <img src="setup.png" alt="setup" width="600" />
 </div>
 
 ## Potential Impact
