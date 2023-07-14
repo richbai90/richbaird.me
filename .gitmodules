@@ -1,0 +1,4 @@
+[submodule "themes/toha"]
+	path = themes/toha
+	url = git@github.com:richbai90/toha.git
+	branch = rich
