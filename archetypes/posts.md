@@ -7,7 +7,7 @@ menu:
   sidebar:
     name: "{{ replaceRE "[-_]" " " .Name | title }}"
     identifier: "{{ .Name | lower }}"
-    parent:
+    parent: {{ strings.TrimSuffix "/" (path.Split .File.Dir).Dir | path.Dir | path.Base }}
     weight: 10
 hero: 
 ---
