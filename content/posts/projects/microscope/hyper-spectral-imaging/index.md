@@ -26,6 +26,10 @@ Consider a simple prism. When light enters the prism, it is refracted. The amoun
 
 ## How does this differ from traditional cameras?
 
+<div class="left">
+  <img src="bayer.png" alt="Bayer Filter" width="400">
+</div>
+
 Traditional cameras use a filter array, typically a bayer filter, to capture the color of the scene. These filters work by allowing only certain wavelengths of light to pass through. This means that the camera is only able to capture the intensity of the scene. This is why when you zoom in on a digital image, you can see the individual red, green and blue pixels. Hyper spectral imaging, on the other hand, captures the spectral content of the scene. This means that every pixel in the image contains information about the spectral content of the scene. This allows operators to view the actual spectral content of the scene, and not just an approximation.
 
 ## How is this useful for microscopy?
