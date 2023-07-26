@@ -38,13 +38,13 @@ It is bennificial to write the linear least squares problem in matrix form for a
 
 We can rewrite this equation in vector form by letting
 $$
-y = \begin{pmatrix}
+\mathbf{y} = \begin{pmatrix}
 y_1 \\ y_2 \\ \vdots \\ y_N
 \end{pmatrix}
 $$
 
 $$
-X = \begin{pmatrix}
+\mathbf{X} = \begin{pmatrix}
 x_1 & 1 \\
 x_2 & 1 \\
 \vdots & \vdots \\
@@ -60,8 +60,9 @@ $$
 1
 \end{pmatrix}
 $$
+Then we can write $\mathbf{B}$ as b * 1 where 1 is the column vector of ones defined above.
 
-So that $mx + 1b$ becomes 
+So that $m\mathbf{X} + \mathbf{B} $ becomes 
 $$
 \begin{pmatrix}
 mx_1 + b \\
@@ -75,21 +76,21 @@ $$
 Then the sum of the squared residuals becomes:
 $$
 \begin{equation}
-\chi^2 = (y - mx - 1b)^T(y - mx - 1b)
+\chi^2 = (\mathbf{y} - m\mathbf{X} - \mathbf{B})^T(\mathbf{y} - m\mathbf{X} - \mathbf{B})
 \end{equation}
 $$
 
-Now if we let $\mathbf{A} = (x^T,1^T)^T$ and $\beta=(m,b)^{T}.$ Then $\mathbf{A}\beta = mx + 1b$. Then the sum of the squared residuals becomes:
+Now if we let $\mathbf{A} = (\mathbf{X}^T,1^T)^T$ and $\beta=(m,b)^{T}.$ Then $\mathbf{A}\beta = m\mathbf{X} + \mathbf{B}$. Then the sum of the squared residuals becomes:
 $$
 \begin{equation}
-\chi^{2}=(y-A\beta)^{T}(y-A\beta)
+\chi^{2}=(\mathbf{A}\beta - \mathbf{y})^{T}(\mathbf{A}\beta - \mathbf{y})
 \end{equation}
 $$
 
 It turns out that there is a special notation for a matrix of the form $\mathbf{v}^T\mathbf{v}$, it is $\mathbf{v}^T\mathbf{v} = \|\mathbf{v}\|^2$ and is called the norm of $\mathbf{v}$. So we can rewrite the sum of the squared residuals as:
 $$
 \begin{equation}
-\chi^{2}=\|A\beta\ - y|^{2}
+\chi^{2}=\|A\beta\ - y\|^{2}
 \end{equation}
 $$
 
