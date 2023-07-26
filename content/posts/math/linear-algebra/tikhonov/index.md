@@ -9,7 +9,7 @@ menu:
     identifier: "tikhonov"
     parent: linear-algebra
     weight: 10
-hero: 
+hero: math-chalkboard.jpg
 ---
 
 ## Linear Least Squares
@@ -146,3 +146,7 @@ $$
 $$
 
 where $\mathbf{y}$ is the spectral image of the sample, $\mathbf{A}$ is the hypercube of data, and $\beta$ is the spectral signature of the sample. The problem is that $\mathbf{A}$ is ill-conditioned. This means that the least squares algorithm will not work. Instead, we can use the Tikhonov regularization algorithm to solve the problem. The value for $\beta$ that solves the Tikhonov regularization problem is the spectral signature of the sample.
+<br />
+<br />
+<br />
+<a href="https://www.vecteezy.com/free-vector/math">Math Vectors by Vecteezy</a>
