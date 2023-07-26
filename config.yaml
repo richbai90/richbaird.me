@@ -222,6 +222,10 @@ params:
             - left: \\(
               right: \\)
               display: false
+          macros:
+            \eqref: \href{###1}{(\text{#1})}
+            \ref: \href{###1}{\text{#1}}
+            \label: \htmlId{#1}{}
 
     # Enable to use custom syntax highlight
     # Please note, Hugo comes with it's own html based syntax highlighter.
