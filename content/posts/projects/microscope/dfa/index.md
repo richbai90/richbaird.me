@@ -1,7 +1,7 @@
 ---
 title: "Dfa"
 date: 2024-06-25T13:03:32-06:00
-draft: true
+draft: false
 math: true
 menu:
   sidebar:
