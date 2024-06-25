@@ -18,7 +18,7 @@ Event based imaging, also known as neuromorphic imaging, is a new paradigm in im
 
 ## How does it work?
 
-Event based cameras are made up of many pixels, each of which is made up of a photoreceptor, a comparator and a memory cell. The photoreceptor is a photodiode that converts light into current. The comparator compares the current to a threshold and if the current is above the threshold, the memory cell is set to 1. If the current is below the threshold, the memory cell is set to 0. The memory cell is then read out by the camera. This process is repeated for every pixel in the camera. The result is a stream of events that can be used to reconstruct the scene.
+Event based cameras are made up of many pixels, each of which is made up of a photoreceptor, a comparator and a memory cell. The photoreceptor is a photodiode that converts light into current. The comparator compares the current to a threshold and if the current is above the threshold, the memory cell is set to 2. If the current is below the threshold, the memory cell is set to 0. The memory cell is then read out by the camera. This process is repeated for every pixel in the camera. The result is a stream of events that can be used to reconstruct the scene.
 
 ![Block Diagram of an Event Based Camera](block_diagram.png)
 <br />
