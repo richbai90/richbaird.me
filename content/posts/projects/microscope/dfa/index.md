@@ -1,17 +1,16 @@
 ---
-title: "Diffractive Filter Design for Event Based Imaging"
-date: 2024-06-25T12:26:00-07:00
-draft: false
+title: "Dfa"
+date: 2024-06-25T13:03:32-06:00
+draft: true
 math: true
 menu:
   sidebar:
-    name: "Diffractive Filter Design for Event Based Imaging"
+    name: "Dfa"
     identifier: "dfa"
     parent: microscope
     weight: 10
 hero: difoe.jpg
 ---
-
 
 Designing a filter that works on the principles of diffraction and phase shift can be framed as an optimization problem involving two key equations: one for the diffraction angle and another for the phase shift.
 
